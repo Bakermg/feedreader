@@ -14,3 +14,18 @@ top left on page and click on it.
 
 
 
+## Testing done
+---
+1 RSS Feeds
+- Test to verify all varialbles have been defined.
+- Test to verify that all URL's are defined.
+- Test to verify that all feeds have names defined and not empty.
+
+2 The Menu 
+- Test to verify that menu is changing visibility.
+
+3 Initial Entries
+- Test to verify that loadFeed function is called and completes, and that there is a single entry element in the .feed containerd.
+
+4 New Feed Section 
+- Test to verify that when a new feed is loaded by the loadFeed function that the content changes.
