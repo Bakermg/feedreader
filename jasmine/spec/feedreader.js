@@ -55,7 +55,6 @@ $(function() {
 
     describe('The menu', function() {
 
-
         /* This is a test that ensures the menu element is
          * hidden by default. */
 
@@ -78,7 +77,6 @@ $(function() {
             $('a.menu-icon-link').click();
             expect(document.body.className).toBe('menu-hidden');
         });
-
     });
 
         /* This is a new test suite named "Initial Entries" */
@@ -99,8 +97,6 @@ $(function() {
         it('feed was loaded with one entry', function() {
             expect($('.feed .entry').length).not.toBe(0);
         });
-
-
     });
 
         /* This is a new test suite named "New Feed Selection"*/
@@ -126,5 +122,4 @@ $(function() {
             expect($('.feed .entry h2').text()).not.toBe(newfeeds);
         });
     });
-
 }());
